@@ -10,6 +10,8 @@ Name the repository ecommerce-app.
 Optionally, add a description and choose visibility (public or private).
 Optionally, initialize with a README or leave it unchecked.
 Click Create repository.
+
+
 2. Clone the Main Repository Locally
 Open Terminal:
 
@@ -25,6 +27,8 @@ bash
 Copy code
 git clone https://github.com/your-username/ecommerce-app.git
 cd ecommerce-app
+
+
 3. Create Subdirectories for Backend and Frontend
 Create Directories:
 
@@ -49,6 +53,8 @@ cd ../ecommerce-frontend
 touch README.md
 git add README.md
 git commit -m "Initial commit for frontend project"
+
+
 4. Push Changes to GitHub
 Push Changes from the Main Directory:
 
@@ -58,6 +64,8 @@ cd ..
 git add .
 git commit -m "Add backend and frontend directories"
 git push -u origin main
+
+
 5. Troubleshoot Authentication Issues
 If You Encounter Authentication Issues:
 Generate a Personal Access Token (PAT):
